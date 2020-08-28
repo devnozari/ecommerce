@@ -4195,7 +4195,10 @@
         },
         "runtime": {
           "bin/placeholder/Nop.Core.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Nop.Data/4.3.0": {
         "type": "project",
@@ -4279,10 +4282,7 @@
         },
         "runtime": {
           "bin/placeholder/Nop.Web.Framework.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       }
     }
   },
@@ -12776,20 +12776,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nozary\\.nuget\\packages\\": {}
+    "C:\\Users\\MHC\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nozary\\Desktop\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Widgets.FacebookPixel\\Nop.Plugin.Widgets.FacebookPixel.csproj",
+      "projectUniqueName": "E:\\Project\\Shop\\ecommerce\\Plugins\\Nop.Plugin.Widgets.FacebookPixel\\Nop.Plugin.Widgets.FacebookPixel.csproj",
       "projectName": "Nop.Plugin.Widgets.FacebookPixel",
-      "projectPath": "C:\\Users\\nozary\\Desktop\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Widgets.FacebookPixel\\Nop.Plugin.Widgets.FacebookPixel.csproj",
-      "packagesPath": "C:\\Users\\nozary\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nozary\\Desktop\\nopCommerce_4.30_Source\\Plugins\\Nop.Plugin.Widgets.FacebookPixel\\obj\\",
+      "projectPath": "E:\\Project\\Shop\\ecommerce\\Plugins\\Nop.Plugin.Widgets.FacebookPixel\\Nop.Plugin.Widgets.FacebookPixel.csproj",
+      "packagesPath": "C:\\Users\\MHC\\.nuget\\packages\\",
+      "outputPath": "E:\\Project\\Shop\\ecommerce\\Plugins\\Nop.Plugin.Widgets.FacebookPixel\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\nozary\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\MHC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -12801,8 +12806,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\nozary\\Desktop\\nopCommerce_4.30_Source\\Presentation\\Nop.Web\\Nop.Web.csproj": {
-              "projectPath": "C:\\Users\\nozary\\Desktop\\nopCommerce_4.30_Source\\Presentation\\Nop.Web\\Nop.Web.csproj"
+            "E:\\Project\\Shop\\ecommerce\\Presentation\\Nop.Web\\Nop.Web.csproj": {
+              "projectPath": "E:\\Project\\Shop\\ecommerce\\Presentation\\Nop.Web\\Nop.Web.csproj"
             }
           }
         }
@@ -12833,7 +12838,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

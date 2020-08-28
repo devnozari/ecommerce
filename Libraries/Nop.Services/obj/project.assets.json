@@ -4070,7 +4070,10 @@
         },
         "runtime": {
           "bin/placeholder/Nop.Core.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Nop.Data/4.3.0": {
         "type": "project",
@@ -12385,20 +12388,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nozary\\.nuget\\packages\\": {}
+    "C:\\Users\\MHC\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "4.3.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nozary\\Desktop\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj",
+      "projectUniqueName": "E:\\Project\\Shop\\ecommerce\\Libraries\\Nop.Services\\Nop.Services.csproj",
       "projectName": "Nop.Services",
-      "projectPath": "C:\\Users\\nozary\\Desktop\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\Nop.Services.csproj",
-      "packagesPath": "C:\\Users\\nozary\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nozary\\Desktop\\nopCommerce_4.30_Source\\Libraries\\Nop.Services\\obj\\",
+      "projectPath": "E:\\Project\\Shop\\ecommerce\\Libraries\\Nop.Services\\Nop.Services.csproj",
+      "packagesPath": "C:\\Users\\MHC\\.nuget\\packages\\",
+      "outputPath": "E:\\Project\\Shop\\ecommerce\\Libraries\\Nop.Services\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\nozary\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\MHC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -12410,11 +12418,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\nozary\\Desktop\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-              "projectPath": "C:\\Users\\nozary\\Desktop\\nopCommerce_4.30_Source\\Libraries\\Nop.Core\\Nop.Core.csproj"
+            "E:\\Project\\Shop\\ecommerce\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+              "projectPath": "E:\\Project\\Shop\\ecommerce\\Libraries\\Nop.Core\\Nop.Core.csproj"
             },
-            "C:\\Users\\nozary\\Desktop\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj": {
-              "projectPath": "C:\\Users\\nozary\\Desktop\\nopCommerce_4.30_Source\\Libraries\\Nop.Data\\Nop.Data.csproj"
+            "E:\\Project\\Shop\\ecommerce\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+              "projectPath": "E:\\Project\\Shop\\ecommerce\\Libraries\\Nop.Data\\Nop.Data.csproj"
             }
           }
         }
@@ -12479,7 +12487,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
