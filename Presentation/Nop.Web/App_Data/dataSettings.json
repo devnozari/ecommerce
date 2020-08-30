@@ -1,5 +1,5 @@
 ﻿{
-  "DataConnectionString": "Data Source=localhost;Initial Catalog=Shop;Integrated Security=True",
+  "DataConnectionString": "Data Source=localhost;Initial Catalog=shop;Integrated Security=True",
   "DataProvider": "sqlserver",
   "RawDataSettings": {}
 }
